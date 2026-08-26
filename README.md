@@ -8,4 +8,4 @@ Landon Lamie
 
 # Explanation
 
-The purpose of this folder is to take notes and demonstrate knowledge of MySQL, which I plan to eventually incorporate into my data science practice.
+The purpose of this folder is to take notes and demonstrate knowledge of MySQL, which I plan to eventually incorporate into my data science practice. Good luck!

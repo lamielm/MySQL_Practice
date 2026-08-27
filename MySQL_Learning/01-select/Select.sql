@@ -9,3 +9,6 @@ select first_name,
 last_name, 
 birth_date
 from employee_demographics;
+
+select distinct gender
+from employee_demographics;

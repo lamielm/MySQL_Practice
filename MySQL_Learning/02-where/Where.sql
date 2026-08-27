@@ -31,3 +31,28 @@ select *
 from employee_demographics
 where (first_name = 'Leslie' AND age = 44)
 or age > 55;
+
+-- Like statement
+select *
+from employee_demographics
+where first_name like 'a%';  -- Starts with A, but can end with any number of characters
+
+select *
+from employee_demographics
+where first_name like '%a';  -- Ends with A, but can start with any number of characters
+
+select *
+from employee_demographics
+where first_name like '%a%';  -- There is an A somewhere, but doesn't matter where
+
+select *
+from employee_demographics
+where first_name like 'a__'; -- Start with A, and has two characters that follow
+
+select *
+from employee_demographics
+where first_name like 'a___'; -- Start with A, and has three characters that follow
+
+select *
+from employee_demographics
+where first_name like 'a___%'; -- Start with A, and has three characters that follow but can be more than that

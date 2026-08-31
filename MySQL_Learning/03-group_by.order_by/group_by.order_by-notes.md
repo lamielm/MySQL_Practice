@@ -24,7 +24,7 @@
 >
 > ![](../Images/Order%20By.png)
 
-> ## Order table by gender then by age
+> ## Order table by gender then by age (descending)
 >
 > ```sql
 > select *
